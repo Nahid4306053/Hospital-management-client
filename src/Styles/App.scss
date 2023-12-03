@@ -1,0 +1,203 @@
+// =============================================================
+// //                      Common Css
+// //      =============================================================
+
+$primery: #0393ce;
+
+$light-gray: #494949;
+$deep_gary: #6f6f6e;
+$white: #ffffff;
+$blue: #261b91;
+$deep_purple: #5a4fc5;
+$black: #2f2f2f;
+$text: #b8b8b8;
+
+@mixin transition($value) {
+  transition: $value ease;
+  -webkit-transition: $value ease;
+  -moz-transition: $value ease;
+  -ms-transition: $value ease;
+  -o-transition: $value ease;
+}
+
+@mixin transform-scale($value) {
+  transform: scale($value);
+  -webkit-transform: scale($value);
+  -moz-transform: scale($value);
+  -ms-transform: scale($value);
+  -o-transform: scale($value);
+}
+
+@mixin transform-rotate($value) {
+  transform: rotate($value);
+  -webkit-transform: rotate($value);
+  -moz-transform: rotate($value);
+  -ms-transform: rotate($value);
+  -o-transform: rotate($value);
+}
+
+@mixin border-radious($value) {
+  border-radius: $value;
+  -webkit-border-radius: $value;
+  -moz-border-radius: $value;
+  -ms-border-radius: $value;
+  -o-border-radius: $value;
+}
+
+@mixin translatey($value) {
+  transform: translateY($value);
+  -webkit-transform: translateY($value);
+  -moz-transform: translateY($value);
+  -ms-transform: translateY($value);
+  -o-transform: translateY($value);
+}
+
+@mixin transform($value) {
+  transform: $value;
+  -webkit-transform: $value;
+  -moz-transform: $value;
+  -ms-transform: $value;
+  -o-transform: $value;
+}
+
+.leanergredian_bac {
+  background: linear-gradient(to right, #5254944e, #f7524661);
+}
+
+header {
+  li {
+    a {
+      background: none !important;
+      color: #000000 !important;
+    }
+  }
+  li {
+    .active {
+      background: none !important;
+      color: #444663 !important;
+    }
+  }
+}
+
+.btnservice {
+  @include transition(0.3s);
+  border: 2px solid rgb(207, 204, 204);
+  padding: 10px 40px;
+  color: rgb(160, 159, 159);
+  text-transform: uppercase;
+}
+.btnservice:hover {
+  border: 2px solid #25c0bf;
+  color: #25c0bf;
+}
+
+.sidecontroller {
+  @include transition(0.3s);
+  border: 2px solid rgb(207, 204, 204);
+  padding: 5px 20px;
+  color: rgb(160, 159, 159);
+  text-transform: uppercase;
+}
+.sidecontroller:hover {
+  border: 2px solid #25c0bf;
+  color: #25c0bf;
+}
+
+.sidecontroller1 {
+  @include transition(0.3s);
+  border: 5px solid rgb(255, 255, 255);
+  padding: 5px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.sidecontroller1:hover {
+  background-color: #fff;
+  color: #38bdf8;
+}
+
+.titles {
+  h3 {
+    color: $primery;
+    font-weight: 1000;
+    text-transform: uppercase;
+  }
+  h5 {
+    font-weight: bolder;
+    color: $deep_gary;
+    text-transform: uppercase;
+  }
+}
+
+.Hospital_info {
+  .support_media {
+    @include transition(0.3s);
+  }
+  .support_media:hover {
+    color: white;
+    background-color: #0393ce;
+
+    .icon {
+      background: #ffffff;
+      color: #0393ce;
+    }
+  }
+}
+
+.sidecontroller2 {
+  @include transition(0.3s);
+  border: 5px solid rgb(207, 204, 204);
+  padding: 20px 20px;
+  color: rgb(160, 159, 159);
+  text-transform: uppercase;
+}
+.sidecontroller2:hover {
+  border: 5px solid #25c0bf;
+  color: #25c0bf;
+}
+.socialICons {
+  a {
+    i {
+      color: #8d9396;
+    }
+  }
+  a:hover {
+    i {
+      color: #23bec0;
+    }
+  }
+}
+
+ScrollBerNone::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+.CommentCard {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+
+  * {
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+  }
+}
+
+.CommentCard:hover {
+  border-color: #1bc0e2;
+  .Comment_conten {
+    h1 {
+      color: #1bc0e2;
+    }
+
+    .btnservice {
+      border: 2px solid #1bc0e2;
+    }
+  }
+}

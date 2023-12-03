@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "1",
+    "departname": "Orthodontics",
+    "img": "https://i.ibb.co/RgT0DF4/Orthodontics.png",
+    "title": "Orthodontics",
+    "description": "Our Orthodontics department specializes in braces, aligners, and other corrective treatments to help patients achieve straighter teeth and a confident smile."
+  },
+  {
+    "_id": "2",
+    "departname": "Pediatric Dentistry",
+    "img": "https://i.ibb.co/x1TNTPP/Pediatric-Dentistry.png",
+    "title": "Pediatric Dentistry",
+    "description": "Our Pediatric Dentistry department is dedicated to providing dental care for children, ensuring a positive and comfortable experience for young patients."
+  },
+  {
+    "_id": "3",
+    "departname": "Oral Surgery",
+    "img": "https://i.ibb.co/fSGfnXk/Oral-Surgery.png",
+    "title": "Oral Surgery",
+    "description": "The Oral Surgery department focuses on surgical procedures related to the mouth and jaw, including extractions, implants, and corrective surgeries."
+  },
+  {
+    "_id": "4",
+    "departname": "Endodontics",
+    "img": "https://i.ibb.co/yFQLGT6/Endodontics.png",
+    "title": "Endodontics",
+    "description": "Endodontics deals with the interior of the tooth, performing root canals and treating dental pulp-related issues to save damaged or infected teeth."
+  },
+  {
+    "_id": "5",
+    "departname": "Periodontics",
+    "img": "https://i.ibb.co/4RS45W7/Periodontics.png",
+    "title": "Periodontics",
+    "description": "Periodontics focuses on the health of the gums and supporting structures of the teeth. Our specialists treat gum diseases and perform gum-related surgeries."
+  },
+  {
+    "_id": "6",
+    "departname": "Prosthodontics",
+    "img": "https://i.ibb.co/N2QrSP4/Prosthodontics.png",
+    "title": "Prosthodontics",
+    "description": "Prosthodontics involves the design, manufacture, and fitting of artificial teeth replacements such as dentures, bridges, and dental implants for patients with missing teeth."
+  }
+]

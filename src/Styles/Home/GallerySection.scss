@@ -1,0 +1,22 @@
+@import "../App.scss";
+
+.Ful_btn:hover {
+  @include transition(0.3s);
+  box-shadow: 20px 20px 50px #25c0c08b;
+}
+
+.Hospital_img {
+  * {
+    @include transition(0.3s);
+  }
+  .FullScreen {
+    top: 100%;
+    opacity: 0;
+  }
+}
+.Hospital_img:hover {
+  .FullScreen {
+    top: 0%;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "service_title": "Advanced Cardiology Care",
+    "slogan": "Your Heart Deserves the Best",
+    "description": "Experience top-notch cardiology services tailored to your unique needs. Our expert cardiologists utilize cutting-edge technology to diagnose and treat heart conditions, ensuring your heart health is in good hands.",
+    "banner": "https://i.ibb.co/J59wXXz/doctor-1.png"
+  },
+  {
+    "id": 2,
+    "service_title": "Comprehensive Orthopedic Solutions",
+    "slogan": "Restoring Mobility, Enhancing Lives",
+    "description": "Discover comprehensive orthopedic care that focuses on restoring your mobility and improving your quality of life. Our skilled orthopedic specialists offer a wide range of services, including joint replacements, minimally invasive surgeries, and personalized rehabilitation programs.",
+    "banner": "https://i.ibb.co/dKDV7bv/doctor-4.png"
+  },
+  {
+    "id": 3,
+    "service_title": "Pediatric Excellence Center",
+    "slogan": "Nurturing Every Child's Potential",
+    "description": "Our Pediatric Excellence Center provides compassionate and specialized healthcare for infants, children, and adolescents. From routine check-ups to complex medical conditions, our team of experienced pediatricians is dedicated to ensuring the health and well-being of your child.",
+    "banner": "https://i.ibb.co/1mpGdq0/doctor-5.png"
+  },
+  {
+    "id": 4,
+    "service_title": "Innovative Oncology Care",
+    "slogan": "Empowering You in the Fight Against Cancer",
+    "description": "Experience innovative and personalized oncology care designed to meet your specific needs. Our multidisciplinary team of oncologists, nurses, and support staff collaborates to provide comprehensive cancer treatments, emotional support, and resources throughout your journey to recovery.",
+    "banner": "https://i.ibb.co/7kQpfys/doctor-6.png"
+  },
+  {
+    "id": 5,
+    "service_title": "24/7 Emergency Medical Services",
+    "slogan": "Dedicated to Rapid Response and Compassionate Care",
+    "description": "Our round-the-clock emergency medical services ensure immediate and expert care for all types of medical emergencies. With a team of skilled professionals and state-of-the-art facilities, we are committed to providing swift, efficient, and compassionate emergency care.",
+    "banner": "https://i.ibb.co/D9dTcbz/doctor-3.png"
+  }
+]

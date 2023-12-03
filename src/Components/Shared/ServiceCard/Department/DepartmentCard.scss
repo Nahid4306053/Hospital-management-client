@@ -1,0 +1,34 @@
+@import "../../../../Styles/App.scss";
+
+.DeparCard {
+  cursor: pointer;
+  @include transition(0.3s);
+  * {
+    @include transition(0.3s);
+  }
+  border-bottom: 5px solid transparent;
+  .DepCard_img {     
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+  }
+}
+.DeparCard:hover {
+  border-color: #13a8c7;
+  .DepCard_img {
+    background-color: #13a8c7;
+    .imgbb {
+      filter: grayscale(100%) invert(100%);
+      -webkit-filter: grayscale(100%) invert(100%);
+    }
+  }
+  .btnservice {
+    border: 2px solid #25c0bf;
+    color: #25c0bf;
+  }
+  box-shadow: 20px 20px 50px #25c0c08b;
+}
+

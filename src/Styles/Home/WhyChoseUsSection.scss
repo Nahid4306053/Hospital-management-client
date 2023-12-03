@@ -1,0 +1,205 @@
+@import "../App.scss";
+// =============================================================
+//                       why_chose Section
+// ============================================================= --->
+.why_chose {
+  padding: 50px 0px 0px 0px;
+  background-color:  #ffffffd3 !important;
+  background-blend-mode: overlay;
+  .holderCircle {
+    cursor: pointer;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    margin: 60px auto;
+    position: relative;
+  }
+
+  .titles {
+    h3 {
+      font-size: 40px;
+    }
+    h5 {
+      font-size: 16px;
+    }
+  }
+
+  .dotCircle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 100%;
+    z-index: 20;
+  }
+  .dotCircle::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    @include border-radious(100%);
+    border: 2px dashed $primery;
+  }
+  .dotCircle .itemDot {
+    display: block;
+    width: 80px;
+    height: 80px;
+    top: 300px;
+    left: 35px;
+    position: absolute;
+    background-color: #fff;
+    color: rgb(185, 185, 185);
+    border: 2px dashed $primery;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    z-index: 3;
+    cursor: pointer;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+  }
+
+  .dotCircle .itemDot.active {
+    background: $primery;
+    color: #fff;
+    transition: 0.5s;
+    border: 2px solid $primery;
+  }
+
+  .dotCircle .itemDot.active {
+    width: 80px;
+    height: 80px;
+    background: $primery;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    border: 1px solid $primery;
+    box-shadow: 0px 0px 25px 3px $primery;
+  }
+
+  /* triangle */
+
+  .contentCircle {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    color: #fff;
+    position: relative;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    word-wrap: no-warp;
+  }
+
+  .contentCircle .CirItem {
+    border-radius: 100%;
+    color: #949494;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.5s;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    .content {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      h1 {
+        padding: 0px 50px;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: $primery;
+      }
+      p {
+        color: #898989;
+      }
+      .links {
+        position: relative;
+        cursor: pointer !important;
+        display: block;
+        margin-top: 20px;
+        text-transform: uppercase;
+        color: $primery;
+        font-weight: bolder;
+      }
+      .links::before {
+        content: "";
+        height: 100%;
+        width: 50%;
+        top: 30%;
+        left: 25%;
+        position: absolute;
+        border-bottom: 3px solid $primery;
+      }
+    }
+  }
+
+  .CirItem.active {
+    z-index: 1;
+    opacity: 1;
+    transform: scale(1);
+    transition: 0.5s;
+  }
+
+  // @media only screen and (min-width: 300px) and (max-width: 599px){
+
+  //     .holderCircle {
+  //         width: 300px;
+  //         height: 300px;
+  //         margin:110px auto;
+  //     }
+  //     .holderCircle::after {
+  //         width: 100%;
+  //         height: 100%;
+  //     }
+
+  //     .dotCircle{
+  //         width: 100%;
+  //         height: 100%;
+  //         top: 0;
+  //         right: 0;
+  //         bottom: 0;
+  //         left: 0;
+  //         margin: auto;
+
+  //     }
+
+  // }
+  // @media only screen and (min-width: 600px) and (max-width: 767px){
+
+  // }
+  // @media only screen and (min-width: 768px) and (max-width: 991px){
+
+  // }
+  // @media only screen and (min-width: 992px) and (max-width: 1199px){
+
+  // }
+  // @media only screen and (min-width: 1200px) and (max-width: 1499px){
+
+  // }
+
+  // @media only screen and (min-width: 1500px) {
+
+  // }
+}

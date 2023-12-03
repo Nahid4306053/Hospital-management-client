@@ -1,0 +1,24 @@
+@import "../Styles/App.scss";
+.maininfo {
+   background-color: #28bda9;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0% 100%);
+  .maindetails {
+    .items {
+                    
+      p {
+        font-size: 18px ;
+        font-weight: 400;            
+      }
+      i{
+         font-size: 20px;
+      }
+      border-bottom: 1px solid #23ab99;
+      gap: 15px;
+      color: white;
+     
+      display: flex;
+      align-items: center;
+  
+    }
+  }
+}

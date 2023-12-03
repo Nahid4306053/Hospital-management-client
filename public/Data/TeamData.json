@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emily Johnson",
+    "departname": "Dentistry",
+    "gender": "Female",
+    "avatar": "https://i.ibb.co/ysq79Bx/3-f.png",
+    "bio": "Experienced dentist specializing in general and cosmetic dentistry. Committed to providing personalized and compassionate care to patients of all ages."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Michael Davis",
+    "departname": "Orthodontics",
+    "gender": "Male",
+    "avatar": "https://i.ibb.co/jbtWVnR/2-m.png",
+    "bio": "Orthodontic specialist with a focus on braces and Invisalign treatments. Dedicated to creating beautiful smiles and improving oral health."
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sarah Wilson",
+    "departname": "Periodontics",
+    "gender": "Female",
+    "avatar": "https://i.ibb.co/d5f2TYj/5-f.png",
+    "bio": "Periodontist with expertise in diagnosing and treating gum diseases. Committed to helping patients maintain healthy gums and overall oral hygiene."
+  },
+  {
+    "id": 4,
+    "name": "Dr. David Lee",
+    "departname": "Endodontics",
+    "gender": "Male",
+    "avatar": "https://i.ibb.co/DDRrgpH/6-m.png",
+    "bio": "Endodontic specialist skilled in root canal treatments and dental pulp therapy. Dedicated to saving natural teeth and relieving patients' pain."
+  },
+  {
+    "id": 5,
+    "name": "Dr. Jessica Martinez",
+    "departname": "Pediatric Dentistry",
+    "gender": "Female",
+    "avatar": "https://i.ibb.co/pv70hsj/7-f.png",
+    "bio": "Pediatric dentist focused on providing gentle and comprehensive dental care to children and adolescents. Passionate about creating positive dental experiences for young patients."
+  },
+  {
+    "id": 6,
+    "name": "Dr. Christopher Anderson",
+    "departname": "Oral Surgery",
+    "gender": "Male",
+    "avatar": "https://i.ibb.co/ScfsWWN/8-m.png",
+    "bio": "Oral surgeon specializing in various oral and maxillofacial surgeries. Dedicated to delivering high-quality surgical care with a focus on patient comfort and safety."
+  }
+]

@@ -1,0 +1,16 @@
+@import "../../Styles/App.scss";
+
+.Overlay {
+  @include transition(0.3s);
+  opacity: 0;
+  
+
+}
+.Overlay:hover {
+  background: linear-gradient(
+    to top,
+    rgba(45, 212, 190, 0.728),
+    rgba(0, 0, 0, 0.226) 
+  );
+  opacity: 1;
+}

@@ -1,0 +1,6 @@
+@import "../App.scss";
+.ServiceSlideBanner {
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  background: #0395ce6e;
+  background-blend-mode: overlay;
+}

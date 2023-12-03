@@ -1,0 +1,32 @@
+@import "../../../Styles/App.scss";
+
+.servicecard {
+  cursor: pointer;
+  @include transition(0.3s);
+  * {
+    @include transition(0.3s);
+  }
+  .btnservice {
+    border: 2px solid rgb(207, 204, 204);
+    padding: 10px 40px;
+    color: rgb(160, 159, 159);
+    text-transform: uppercase;
+  }
+}
+.servicecard:hover {
+  .card-title {
+    color: #25c0bf;
+  }
+  .btnservice {
+    border: 2px solid #25c0bf;
+    color: #25c0bf;
+  }
+  box-shadow: 20px 20px 50px #25c0c08b;
+}
+
+
+.Our_bg{
+     height: 100%;
+     padding: 80px 50px;
+     background: linear-gradient(#25c0c000 ,#25c0bf);
+}

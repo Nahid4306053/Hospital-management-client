@@ -1,0 +1,43 @@
+@import "../App.scss";
+
+
+.About_us {
+  .batch_img_ab {
+    padding: 100px 0px;
+    img {
+      z-index: 10;
+    }
+
+    .batch {
+      box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.233);
+      position: absolute;
+      z-index: 50;
+      top: 0%;
+      left: 10%; 
+      padding: 30px 25px;
+      background-color: white;
+      @include transform-rotate(180deg);
+      h5 {
+        writing-mode: vertical-lr;
+        -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: vertical-lr;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 25px;
+      }
+    }
+  }
+  margin-top: 100px;
+  height: auto;
+  width: 100vw;
+  .abou_content {
+    margin-top: 20px;
+    background-color: $primery;
+    padding: 40px 40px;
+    p {
+      color: #ffffff;
+      line-height: 30px;
+      font-weight: 600;
+    }
+  }
+}

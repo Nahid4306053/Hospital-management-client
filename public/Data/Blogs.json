@@ -1,0 +1,276 @@
+[
+  {
+    "id": 1,
+    "title": "Importance of Regular Dental Checkups",
+    "description": "Learn about the significance of regular dental checkups and how they contribute to your oral health. Regular dental checkups are essential for maintaining good oral hygiene. These checkups help in the early detection of dental issues, ensuring timely intervention and preventing complications. Discover why scheduling regular appointments with your dentist is crucial for a healthy smile.",
+    "thumbnail": "https://i.ibb.co/xD3DdV5/Gallery-Img-1.png",
+    "category": "Oral Health",
+    "author": {
+      "authorname": "Dr. Emily Smith",
+      "publishdate": "2023-01-15T09:30:00Z",
+      "avatar": "https://i.ibb.co/gykFTXM/8-m.png"
+    },
+    "views": 1500,
+    "comments": [
+      {
+        "id": 1,
+        "commenter": {
+          "username": "DentalCareFan",
+          "avatar": "https://i.ibb.co/FHGCLBL/7-f.png"
+        },
+        "text": "Great article! Regular checkups are crucial for maintaining a healthy smile.",
+        "date": "2023-01-16T10:15:00Z",
+        "replies": [
+          {
+            "id": 1,
+            "replier": {
+              "username": "OralHealthExpert",
+              "avatar": "https://i.ibb.co/9yPV083/2-m.png"
+            },
+            "text": "Absolutely! It's essential for early detection of issues. Prevention is key.",
+            "date": "2023-01-17T11:00:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Benefits of Teeth Whitening Procedures",
+    "description": "Discover the advantages of professional teeth whitening treatments and achieve a brighter smile. Professional teeth whitening procedures offer effective and safe solutions to enhance your smile. Explore the various benefits of these treatments, including improved confidence and a more youthful appearance. Learn why opting for professional teeth whitening is a popular choice for individuals seeking a radiant smile.",
+    "thumbnail": "https://i.ibb.co/7VpNdNc/Gallery-Img-2.png",
+    "category": "Cosmetic Dentistry",
+    "author": {
+      "authorname": "Dr. Michael Johnson",
+      "publishdate": "2023-02-10T10:45:00Z",
+      "avatar": "https://i.ibb.co/NnGsbv3/6-m.png"
+    },
+    "views": 1850,
+    "comments": [
+      {
+        "id": 2,
+        "commenter": {
+          "username": "SmileEnthusiast",
+          "avatar": "https://i.ibb.co/DL0gHG0/3-f.png"
+        },
+        "text": "I had my teeth whitened last month, and the results are amazing! Highly recommend it.",
+        "date": "2023-02-11T11:20:00Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Tips for Maintaining Healthy Gums",
+    "description": "Explore effective tips for keeping your gums healthy and preventing gum diseases. Healthy gums are essential for overall oral health. Discover practical tips and techniques to maintain your gum health, including proper brushing and flossing techniques, regular dental checkups, and a balanced diet. Learn how simple everyday practices can contribute to preventing gum diseases and ensuring a confident smile.",
+    "thumbnail": "https://i.ibb.co/FVGx2GL/Gallery-Img-3.png",
+    "category": "Gum Care",
+    "author": {
+      "authorname": "Dr. Sarah Brown",
+      "publishdate": "2023-03-05T11:10:00Z",
+      "avatar": "https://i.ibb.co/FHGCLBL/7-f.png"
+    },
+    "views": 1320,
+    "comments": [],
+    "date": "2023-03-06T12:05:00Z"
+  },
+  {
+    "id": 4,
+    "title": "All You Need to Know About Dental Implants",
+    "description": "Comprehensive guide on dental implants, their benefits, and the implantation process. Dental implants are revolutionary solutions for missing teeth. This comprehensive guide covers everything you need to know about dental implants, including their benefits, the implantation process, and aftercare. Explore how dental implants can transform your smile and restore your confidence. Discover the life-changing possibilities of modern dentistry.",
+    "thumbnail": "https://i.ibb.co/5jMr96F/Gallery-Img-4.png",
+    "category": "Restorative Dentistry",
+    "author": {
+      "authorname": "Dr. David Wilson",
+      "publishdate": "2023-04-20T13:20:00Z",
+      "avatar": "https://i.ibb.co/znmP460/5-f.png"
+    },
+    "views": 1985,
+    "comments": [
+      {
+        "id": 3,
+        "commenter": {
+          "username": "ImplantExpert",
+          "avatar": "https://i.ibb.co/DL0gHG0/3-f.png"
+        },
+        "text": "Dental implants are a game-changer for people with missing teeth. Life-changing procedure!",
+        "date": "2023-04-21T14:00:00Z"
+      },
+      {
+        "id": 4,
+        "commenter": {
+          "username": "DentalInnovator",
+          "avatar": "https://i.ibb.co/w6ZD8DY/4.png"
+        },
+        "text": "Absolutely! Modern dentistry has come a long way. Dental implants offer natural-looking replacements.",
+        "date": "2023-04-22T14:45:00Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Understanding Braces: Types and Maintenance",
+    "description": "Learn about different types of braces and how to maintain them for effective orthodontic treatment. Braces play a significant role in correcting dental misalignments. This article provides insights into various types of braces, including traditional braces, clear aligners, and lingual braces. Additionally, discover essential tips for maintaining braces, ensuring a smooth orthodontic journey. Gain a comprehensive understanding of orthodontic treatments and their benefits.",
+    "thumbnail": "https://i.ibb.co/kmKXDhk/Gallery-Img-5.png",
+    "category": "Orthodontics",
+    "author": {
+      "authorname": "Dr. Linda Miller",
+      "publishdate": "2023-05-12T15:30:00Z",
+      "avatar": "https://i.ibb.co/DL0gHG0/3-f.png"
+    },
+    "views": 1675,
+    "comments": [],
+    "date": "2023-05-13T16:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Caring for Your Child's Dental Health",
+    "description": "Essential tips for parents to ensure their children's dental health and early oral care practices. Parents play a crucial role in shaping their children's dental habits. This article provides essential tips for parents, including proper brushing techniques, the importance of regular dental checkups, and guidance on a balanced diet. Establishing good oral care practices in childhood sets the foundation for a lifetime of healthy smiles.",
+    "thumbnail": "https://i.ibb.co/N9tLMLq/Gallery-Img-6.png",
+    "category": "Pediatric Dentistry",
+    "author": {
+      "authorname": "Dr. Daniel Clark",
+      "publishdate": "2023-06-08T17:15:00Z",
+      "avatar": "https://i.ibb.co/w6ZD8DY/4.png"
+    },
+    "views": 2150,
+    "comments": [
+      {
+        "id": 5,
+        "commenter": {
+          "username": "ParentingSmiles",
+          "avatar": "https://i.ibb.co/Js2NwzG/1.png"
+        },
+        "text": "Teaching kids good dental habits early is essential. It sets the foundation for a lifetime of healthy smiles.",
+        "date": "2023-06-09T18:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Dealing with Dental Emergencies: A Quick Guide",
+    "description": "Emergency dental care tips and actions to take in case of dental emergencies for immediate relief. Dental emergencies can be stressful, but knowing what to do can make a significant difference. This quick guide provides essential tips for handling common dental emergencies, including toothaches, knocked-out teeth, and broken braces. Being prepared and taking prompt actions can alleviate pain and prevent further complications during dental emergencies.",
+    "thumbnail": "https://i.ibb.co/fCDMwnV/Gallery-Img-7.png",
+    "category": "Emergency Dentistry",
+    "author": {
+      "authorname": "Dr. Emily Davis",
+      "publishdate": "2023-07-03T19:25:00Z",
+      "avatar": "https://i.ibb.co/Js2NwzG/1.png"
+    },
+    "views": 1760,
+    "comments": [],
+    "date": "2023-07-04T20:05:00Z"
+  },
+  {
+    "id": 8,
+    "title": "The Role of Diet in Oral Health",
+    "description": "Explore how your diet impacts your oral health and discover foods that promote healthy teeth and gums. A balanced diet is not only essential for overall health but also plays a significant role in maintaining good oral hygiene. This article explores the impact of different foods on teeth and gums, highlighting the importance of calcium-rich foods, fruits, and vegetables. Discover the key nutrients that contribute to strong teeth and healthy gums for a confident smile.",
+    "thumbnail": "https://i.ibb.co/rwyvvkD/Gallery-Img-8.png",
+    "category": "Nutrition and Dentistry",
+    "author": {
+      "authorname": "Dr. Daniel Johnson",
+      "publishdate": "2023-08-18T21:10:00Z",
+      "avatar": "https://i.ibb.co/9yPV083/2-m.png"
+    },
+    "views": 1980,
+    "comments": [],
+    "date": "2023-08-19T22:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Overcoming Dental Anxiety: Tips for a Stress-Free Visit",
+    "description": "Useful strategies and techniques to overcome dental anxiety and have a comfortable dental experience. Dental anxiety is common, but it shouldn't prevent you from seeking necessary dental care. This article offers practical tips to overcome dental anxiety, including deep breathing exercises, communication with your dentist, and distraction techniques. By implementing these strategies, you can have a stress-free dental experience and prioritize your oral health without fear or apprehension.",
+    "thumbnail": "https://i.ibb.co/wzvnPmM/Gallery-Img-9.png",
+    "category": "Dental Anxiety",
+    "author": {
+      "authorname": "Dr. Emma Wilson",
+      "publishdate": "2023-09-14T23:15:00Z",
+      "avatar": "https://i.ibb.co/9yPV083/2-m.png"
+    },
+    "views": 2050,
+    "comments": [
+      {
+        "id": 6,
+        "commenter": {
+          "username": "AnxietyFreeSmiles",
+          "avatar": "https://i.ibb.co/znmP460/5-f.png"
+        },
+        "text": "Thank you for sharing these tips! Overcoming dental anxiety is a game-changer for many.",
+        "date": "2023-09-15T00:10:00Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Choosing the Right Toothpaste and Toothbrush",
+    "description": "Guidelines for selecting the appropriate toothpaste and toothbrush to maintain optimal oral hygiene. The right toothpaste and toothbrush are essential tools for maintaining a healthy smile. This article provides guidelines for selecting the appropriate toothpaste with fluoride and a toothbrush with soft bristles. Understand the importance of proper brushing techniques and how choosing the right oral hygiene products can contribute to effective plaque removal and gum care. Make informed decisions for your oral health.",
+    "thumbnail": "https://i.ibb.co/CQF19Vj/Gallery-Img-10.png",
+    "category": "Oral Hygiene Products",
+    "author": {
+      "authorname": "Dr. Samuel Adams",
+      "publishdate": "2023-10-09T01:30:00Z",
+      "avatar": "https://i.ibb.co/gykFTXM/8-m.png"
+    },
+    "views": 1890,
+    "comments": [],
+    "date": "2023-10-10T02:20:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Preventing Tooth Decay: Tips and Techniques",
+    "description": "Proven methods to prevent tooth decay and maintain strong, healthy teeth throughout life. Tooth decay is preventable with the right habits and techniques. This article offers proven methods for preventing tooth decay, including regular dental checkups, proper oral hygiene practices, and a balanced diet. Understand the role of fluoride and the importance of limiting sugary foods and beverages. By implementing these tips, you can maintain strong and healthy teeth for a lifetime.",
+    "thumbnail": "https://i.ibb.co/r776GdP/Gallery-Img-11.png",
+    "category": "Preventive Dentistry",
+    "author": {
+      "authorname": "Dr. Ava Johnson",
+      "publishdate": "2023-11-25T03:45:00Z",
+      "avatar": "https://i.ibb.co/NnGsbv3/6-m.png"
+    },
+    "views": 1925,
+    "comments": [],
+    "date": "2023-11-26T04:30:00Z"
+  },
+  {
+    "id": 12,
+    "title": "The Impact of Smoking on Oral Health",
+    "description": "Explore the adverse effects of smoking on oral health and ways to minimize the damage for a healthier mouth. Smoking has severe consequences on your teeth and gums, including tooth discoloration, gum disease, and even tooth loss. This article delves into the adverse effects of smoking on oral health and provides practical strategies to minimize the damage, such as quitting smoking, regular dental checkups, and proper oral hygiene practices. Take proactive steps to protect your oral health and achieve a healthier mouth despite the challenges of smoking.",
+    "thumbnail": "https://i.ibb.co/mCbPQMZ/Gallery-Img-12.png",
+    "category": "Smoking and Oral Health",
+    "author": {
+      "authorname": "Dr. Noah Davis",
+      "publishdate": "2023-12-19T05:55:00Z",
+      "avatar": "https://i.ibb.co/Js2NwzG/1.png"
+    },
+    "views": 1755,
+    "comments": [
+      {
+        "id": 7,
+        "commenter": {
+          "username": "OralHealthConcerns",
+          "avatar": "https://i.ibb.co/FHGCLBL/7-f.png"
+        },
+        "text": "Smoking can wreak havoc on your teeth and gums. It's essential to raise awareness about these issues.",
+        "date": "2023-12-20T06:40:00Z",
+        "replies": [
+          {
+            "id": 8,
+            "replier": {
+              "username": "DentalAwareness",
+              "avatar": "https://i.ibb.co/w6ZD8DY/4.png"
+            },
+            "text": "You're absolutely right. Quitting smoking is one of the best things one can do for their oral health.",
+            "date": "2023-12-21T07:25:00Z"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "commenter": {
+          "username": "HealthySmilesAhead",
+          "avatar": "https://i.ibb.co/DL0gHG0/3-f.png"
+        },
+        "text": "Thank you for shedding light on this crucial topic. Smoking is a leading cause of oral health problems.",
+        "date": "2023-12-22T08:15:00Z"
+      }
+    ]
+  }
+]

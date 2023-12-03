@@ -1,0 +1,13 @@
+.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+ padding: 7px !important; 
+
+  display: block;
+}
+.swiper-vertical > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-vertical.swiper-pagination-bullets{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;            
+}

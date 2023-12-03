@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "avatar": "https://i.ibb.co/9yPV083/2-m.png",
+    "feedback": "I had a fantastic experience with this dentist. The staff was friendly, and the service was top-notch. I highly recommend their services.",
+    "rating": 5,
+    "name": "John Doe"
+  },
+  {
+    "id": 2,
+    "avatar": "https://i.ibb.co/w6ZD8DY/4.png",
+    "feedback": "The dentist and the entire team were incredibly professional. They made me feel comfortable throughout the procedure. I am extremely satisfied with the results.",
+    "rating": 4.5,
+    "name": "Jane Smith"
+  },
+  {
+    "id": 3,
+    "avatar": "https://i.ibb.co/NnGsbv3/6-m.png",
+    "feedback": "Exceptional service! The dentist explained the process thoroughly and answered all my questions. The clinic is clean, and the staff is friendly and efficient.",
+    "rating": 5,
+    "name": "Michael Johnson"
+  },
+  {
+    "id": 4,
+    "avatar": "https://i.ibb.co/Js2NwzG/1.png",
+    "feedback": "I am terrified of dentists, but this clinic changed my perspective. The dentist was gentle, and the staff was understanding. I had a painless experience. Highly recommended!",
+    "rating": 4.8,
+    "name": "Sarah Brown"
+  },
+  {
+    "id": 5,
+    "avatar": "https://i.ibb.co/DL0gHG0/3-f.png",
+    "feedback": "The dentist here is not only skilled but also compassionate. They took the time to listen to my concerns and provided personalized care. I am very impressed with their services.",
+    "rating": 4.9,
+    "name": "David Wilson"
+  },
+  {
+    "id": 6,
+    "avatar": "https://i.ibb.co/w6ZD8DY/4.png",
+    "feedback": "I had a complex dental issue, and the dentist handled it with expertise. The results exceeded my expectations. I am grateful for their exceptional work.",
+    "rating": 5,
+    "name": "Emily Davis"
+  },
+  {
+    "id": 7,
+    "avatar": "https://i.ibb.co/znmP460/5-f.png",
+    "feedback": "The entire experience, from scheduling the appointment to the actual treatment, was seamless. The dentist was friendly and skilled. I am very happy with the outcome.",
+    "rating": 4.7,
+    "name": "Daniel Clark"
+  },
+  {
+    "id": 8,
+    "avatar": "https://i.ibb.co/FHGCLBL/7-f.png",
+    "feedback": "I've been a patient here for years, and the quality of care has always been outstanding. The dentist and the staff are dedicated to their patients' well-being. I wouldn't go anywhere else.",
+    "rating": 5,
+    "name": "Linda Miller"
+  }
+]

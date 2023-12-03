@@ -1,0 +1,44 @@
+@import "../Styles/App.scss";
+
+.Fullview {
+  img {
+    height: 100%;
+  }
+  height: 700px;
+  z-index: 50 !important;
+  clip-path: ellipse(50% 70% at 33% 50%);
+}
+.fulviewContainer {
+  clip-path: ellipse(60% 80% at 30% 50%);
+}
+
+.Thumbsslide {
+  clip-path: polygon(0 5%, 100% 5%, 100% 90%, 0 90%);
+  width: 250px;
+  height: 700px;
+  padding: 65px;
+  position: absolute;
+  *{
+    @include transition(0.3s)                
+  }
+  img {
+    border: 10px solid #00aefffd;
+    @include border-radious(100%);
+  }
+  .swiper-slide-active {     
+    margin-left: 30px;
+    img{
+    border: 10px solid rgba(214, 214, 214, 0.992)
+    }
+    @include transform-scale(1.2)
+  }
+}
+.Thumbsslide_container {
+ 
+  top: 0;
+  z-index: 100;
+  position: absolute;
+  width: 250px;
+  height: 600px;
+  overflow: visible;
+}

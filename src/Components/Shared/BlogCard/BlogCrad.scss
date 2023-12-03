@@ -1,0 +1,31 @@
+@import "../../../Styles/App.scss";
+
+.sitebar {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+
+.blog_card {
+  @include transition(0.3s);
+  * {
+    @include transition(0.3s);
+  }
+  .blog_btn {
+    border: 3px solid grey;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    color: grey;
+  }
+}
+.blog_card:hover , .BlogSwiper .swiper-slide-active {
+   cursor: pointer;                  
+  .card-title { 
+    color: #25c0bf;
+  }
+  .blog_btn {
+    border-color:  #25c0bf;
+    color: #25c0bf;
+  }
+  box-shadow: 20px 20px 50px #25c0c08b;
+}
