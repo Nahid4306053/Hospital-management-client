@@ -145,6 +145,8 @@ header {
   }
 }
 
+
+
 .sidecontroller2 {
   @include transition(0.3s);
   border: 5px solid rgb(207, 204, 204);
@@ -200,4 +202,8 @@ ScrollBerNone::-webkit-scrollbar {
       border: 2px solid #1bc0e2;
     }
   }
+}
+
+.menu  > li > .active {
+  color: #3ABFF8 !important;
 }

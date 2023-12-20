@@ -18,7 +18,7 @@
     color: grey;
   }
 }
-.blog_card:hover , .BlogSwiper .swiper-slide-active {
+.blog_card:hover , .BlogSwiper > .swiper-wrapper .swiper-slide-active   {
    cursor: pointer;                  
   .card-title { 
     color: #25c0bf;

@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import React from "react";
 import "./BlogCrad.scss";
 import blog_img from "/news/1.png";
 import moment from "moment";
+import { Link } from "react-router-dom";
 function BlogCard({blog}) {
   return (
     <div className="Card h-full ">
@@ -21,9 +24,9 @@ function BlogCard({blog}) {
           <span className="">{moment.utc(blog.author.publishdate, "YYYYMMDDHHmmss").fromNow()}</span>
           <span className="">{blog.category}</span>
           <div className="">
-            <button className=" blog_btn text-sm mt-5  font-bold">
-              Read More
-            </button>
+           <Link to={`/blogs/singelblog/${blog.id}`}>
+            <button className=" blog_btn text-sm mt-5  font-bold"> Read More </button>
+            </Link>
           </div>
         </div>
       </div>

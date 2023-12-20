@@ -35,7 +35,27 @@ function BlogSection() {
         </div>
         <div className="relative mt-32">
           <Swiper
-            slidesPerView={3}
+            breakpoints={{
+              // when window width is >= 640px
+              300: {
+                width: 380,
+                slidesPerView: 1,
+                spaceBetween: 30,
+              },
+              // when window width is >= 768px
+              768: {
+                spaceBetween: 30,
+                width: 768,
+                slidesPerView: 2,
+              },         
+               1024: {
+                spaceBetween: 50,
+                width: 1024,
+                slidesPerView: 2,
+              },
+            }}
+         
+        
             spaceBetween={30}
             pagination={{
               clickable: true,

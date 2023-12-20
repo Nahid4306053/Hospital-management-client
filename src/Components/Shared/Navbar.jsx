@@ -1,4 +1,4 @@
-import React from "react";
+
 import { NavLink } from "react-router-dom";
 import web_logo from "/SITE/website-logo.png";
 export default function Navbar() {
@@ -38,7 +38,7 @@ export default function Navbar() {
       <div className="drawer ">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
-          <div className="w-full flex text-xs xl:text-sm navbar py-0 container mx-auto">
+          <div className="w-full flex text-xs xl:text-sm navbar py-3 container mx-auto">
             <div className="flex-1 lg:hidden md:block ">
               <img className="h-14" src={web_logo} alt="" />
             </div>
@@ -55,41 +55,34 @@ export default function Navbar() {
               <h2 className="font-medium text-[#606062] whitespace-nowrap md:block hidden">
                 MON - STA 08.30 - 18.00.SUNDAY
               </h2>
-              <button className="uppercase badge badge-info text-white badge-lg ">
+              <button className="uppercase badge badge-info text-white lg:badge-lg ">
                 open
               </button>
             </div>
-            <div className="flex-none lg:hidden">
-              <label
-                htmlFor="my-drawer-3"
-                aria-label="open sidebar"
-                className="btn btn-square btn-ghost"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="inline-block w-6 h-6 stroke-current"
-                >
-                  <to
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  ></to>
-                </svg>
+            <div className="flex-none text-gray-500 lg:hidden">
+              <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost" > 
+              <i className="fa-solid fa-bars"></i> 
               </label>
             </div>
           </div>
           {/* Page content here */}
         </div>
-        <div className="drawer-side">
+        <div className="drawer-side z-[50000]">
           <label
             htmlFor="my-drawer-3"
             aria-label="close sidebar"
             className="drawer-overlay"
-          ></label>
+          >
+        
+          </label>
           <ul className="menu p-4 w-80 min-h-full bg-base-200">
+          <label
+            htmlFor="my-drawer-3"
+            aria-label="close sidebar"
+            className=""
+          >
+             <i  aria-label="close sidebar"  className="z-[10] text-red-400 text-lg absolute top-0 right-0 p-5 fa-solid fa-xmark"></i>
+          </label>
             {/* Sidebar content here */}
             {links}
           </ul>

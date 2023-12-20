@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 
 export default function CircleSlider(activetab) {
   useEffect(() => {  
@@ -7,7 +7,7 @@ export default function CircleSlider(activetab) {
       const container = document.querySelector(".dotCircle");
       if (container) {
         const radius = container.offsetWidth / 2.5;
-        console.log(radius, container.offsetWidth);
+      
         const fields = document.querySelectorAll(".itemDot");
 
         fields.forEach((field, index) => {

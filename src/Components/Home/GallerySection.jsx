@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "../../Styles/Home/GallerySection.scss";
 import GalleryCard from "../Shared/GalleryCards/GalleryCard";
 
@@ -18,8 +18,8 @@ function GallerySection() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div className="p-20 flex items-center bg-sky-400 text-white">
             <div>
-              <h1 className="text-6xl uppercase font-bold ">hospital</h1>
-              <h1 className="text-2xl mt-4 uppercase  font-bold ">
+              <h1 className="lg:text-6xl text-4xl uppercase font-bold ">hospital</h1>
+              <h1 className="text-2xl lg:mt-4 uppercase  font-bold ">
                 photo gallery
               </h1>
               <button className="  mt-5 font-bold border-4  px-10 py-2">

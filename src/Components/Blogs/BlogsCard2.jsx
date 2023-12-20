@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
 import moment from "moment/moment";
-import React from "react";
+import { Link } from "react-router-dom";
+
 
 export default function BlogsCard2({blog}) {
   return (
@@ -11,7 +13,8 @@ export default function BlogsCard2({blog}) {
         <div className="Description space-y-7">
           <h1 className="title hover:text-teal-400 cursor-pointer text-2xl font-bold uppercase"> {blog.title}</h1>
           <p className="des text-slate-400 text-lg leading-8"> {blog.description.slice(0,190)+"..."  } </p>
-          <button className="btnservice font-bold ">Details</button>
+          <Link to={`/blogs/singelblog/${blog.id}`}>
+          <button className="btnservice font-bold mt-4">Details</button></Link>
         </div>
         <div className="author text-xs flex items-center justify-between md:text-sm font-semibold text-slate-500 gap-4">
           <div className="aut_img flex gap-4 items-center ">

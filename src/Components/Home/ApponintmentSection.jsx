@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import ApponintmentSection_bg from "/appoinment_bg.jpeg";
 import Apponintment_lady from "/appoinment_lady.png";
 export default function ApponintmentSection({ display }) {
@@ -21,7 +22,7 @@ export default function ApponintmentSection({ display }) {
             display !== "none" && " py-20"
           }`}
         >
-          <h1 className="text-5xl font-bold text-sky-400 uppercase">
+          <h1 className="md:text-5xl text-3xl font-bold text-sky-400 uppercase">
             <span className="text-black">Take an </span>Apponintment
           </h1>
           <p className="max-w-[700px] mt-4 text-xl text-slate-500 leading-10">
@@ -105,14 +106,14 @@ export default function ApponintmentSection({ display }) {
               >
                 <div className="contact ">
                   <p>
-                    <i className="text-sky-400 fa-solid fa-headphones"></i>
+                    <i className="text-sky-400 pr-1 fa-solid fa-headphones"></i>
                     +88019092187555
                   </p>
                 </div>
                 <div className="contact">
                   <p>
-                    <i className="text-sky-400 fa-solid fa-envelope"></i>
-                    ku4306053@gmail.com
+                    <i className="text-sky-400 pr-1 fa-solid fa-envelope"></i>
+                    ku4306053@gmail
                   </p>
                 </div>
                 <div

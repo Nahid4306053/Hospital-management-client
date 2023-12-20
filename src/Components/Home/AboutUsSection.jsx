@@ -13,12 +13,12 @@ export default function AboutUsSection() {
             </div>
           </div>
           <div
-            style={{ marginTop: "150px" }}
-            className="col-span-12 lg:col-span-6 p-0 "
+           
+            className="col-span-12 xl:mt-40 lg:col-span-6 p-0 "
           >
             <div className="titles px-4">
               <h5 className="text-xl uppercase text-gray-400">Nahid dents</h5>
-              <h3 className="text-5xl font-bold text-sky-500">About us</h3>
+              <h3 className="text-5xl  text-sky-500">About us</h3>
             </div>
             <div className="abou_content px-4 text-lg">
               <p>

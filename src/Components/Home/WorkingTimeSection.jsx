@@ -1,19 +1,19 @@
-import React from "react";
+
 import "../../Styles/Home/WorkingTimeSection.scss";
 import servicebg from "/services_img/servicebg.png";
 export default function WorkingTimeSection() {
   return (
-    <div className="time_shedual mt-5">
+    <div className="time_shedual ">
       <div className=" mx-auto">
         <div className="grid grid-cols-12 ">
           <div
             style={{
               background: `url(${servicebg})`,
-              backgroundSize: "100%",
+              backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               overflow: "hidden",
             }}
-            className="col-span-12 lg:col-span-6 lg:text-start p-0 flex justify-center items-center worktitle "
+            className="col-span-12 lg:col-span-6 lg:text-start py-20 flex justify-center items-center worktitle "
           >
             <div className="titles text-white">
               <div className="">
@@ -42,8 +42,8 @@ export default function WorkingTimeSection() {
             </div>
           </div>
           <div className="col-span-12 bg-sky-400 h-full  lg:col-span-6  lg:text-start ">
-            <ul className="list_time text-lg   w-10/12 text-white">
-              <li>
+            <ul className="list_time text-sm   text-white">
+              <li className="py-5 md:px-20 px-5">
                 <p>setarday</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM
@@ -52,7 +52,7 @@ export default function WorkingTimeSection() {
                   <i className="fa-light fa-clock mr-4"></i> 18:30 AM
                 </div>
               </li>
-              <li>
+              <li className="py-5 md:px-20 px-5">
                 <p>sunday</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM
@@ -61,7 +61,7 @@ export default function WorkingTimeSection() {
                   <i className="fa-light fa-clock mr-4"></i> 18:30 AM
                 </div>
               </li>
-              <li>
+              <li className="py-5 md:px-20 px-5">
                 <p>Mondey</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM
@@ -70,7 +70,7 @@ export default function WorkingTimeSection() {
                   <i className="fa-light fa-clock mr-4"></i> 18:30 AM
                 </div>
               </li>
-              <li>
+              <li className="py-5 md:px-20 px-5">
                 <p>tuesday</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM
@@ -79,7 +79,7 @@ export default function WorkingTimeSection() {
                   <i className="fa-light fa-clock mr-4"></i> 18:30 AM
                 </div>
               </li>
-              <li>
+              <li className="py-5 md:px-20 px-5">
                 <p>wednesday</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM
@@ -88,7 +88,7 @@ export default function WorkingTimeSection() {
                   <i className="fa-light fa-clock mr-4"></i> 18:30 AM
                 </div>
               </li>
-              <li>
+              <li className="py-5 md:px-20 px-5">
                 <p>thurshday</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM
@@ -97,7 +97,7 @@ export default function WorkingTimeSection() {
                   <i className="fa-light fa-clock mr-4"></i> 18:30 AM
                 </div>
               </li>
-              <li>
+              <li className="py-5 md:px-20 px-5">
                 <p>friday</p>
                 <div>
                   <i className="fa-light fa-clock mr-4"></i> 08:30 AM

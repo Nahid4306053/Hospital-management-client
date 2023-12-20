@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import  { useEffect, useRef, useState } from "react";
 import "swiper/css";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -18,7 +18,7 @@ export default function ServiceSliderSection() {
       .catch((err) => console.log(err));
   }, []);
   return (
-    <div className="grid gap-14 grid-cols-2">
+    <div className="lg:grid hidden gap-14 lg:grid-cols-2">
       <div
         style={{
           backgroundImage: `url(${serviceOverlay})`,
@@ -53,7 +53,7 @@ export default function ServiceSliderSection() {
                       <h3 className="text-2xl font-bold">
                         {ele.service_title}
                       </h3>
-                      <p className="text-lg font-semibold  max-w-xl">
+                      <p className="text-lg opacity-75  max-w-xl">
                         {ele.description.slice(0, 300)}
                       </p>
                       <div>

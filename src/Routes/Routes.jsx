@@ -13,6 +13,7 @@ import BlogDetails from "../pages/BlogDetails";
 import Testimonials from "../pages/Testimonials";
 import AboutUs from "../pages/AboutUs";
 import Login from "../pages/Login";
+// eslint-disable-next-line no-sparse-arrays
 export const routers = createBrowserRouter([
   {
     path: "/",
